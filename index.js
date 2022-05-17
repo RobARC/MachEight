@@ -42,7 +42,7 @@ fetch(`${API_URL}`)
             
             if (l > r) {
                 if (r < 0){
-                    console.log("No matches found 1");
+                    console.log("No matches found");
                     process.exit(0);
                 }
                 //console.log("No matches found 2");
