@@ -12,6 +12,17 @@ if (process.argv.length !== 3) {
     process.exit(0);
   }
 
+if (isNaN(process.argv[2])) {
+    console.log("Please write a integer number");
+    process.exit(0);
+}
+
+if (typeof process.argv[2] !== 'integer'){
+  console.log("Please write a integer number");
+  process.exit(0);
+}
+  
+
 const x = process.argv[2];
 
 //get data
