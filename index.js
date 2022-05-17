@@ -17,10 +17,12 @@ if (isNaN(process.argv[2])) {
     process.exit(0);
 }
 
-if (typeof process.argv[2] !== 'integer'){
-  console.log("Please write a integer number");
-  process.exit(0);
-}
+/*if ( Number.isInteger(process.argv[2])) {
+  console.log("ok");
+}else{
+    console.log("Please write a integer number 2");
+    process.exit(0);
+}*/
   
 
 const x = process.argv[2];
